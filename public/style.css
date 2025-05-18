@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Containers */
+#loginbox, #chatbox {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    text-align: center;
+    display: none;
+}
+
+/* Show only one at a time */
+#loginbox.show, #chatbox.show {
+    display: block;
+}
+
+/* Inputs and Buttons */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Message List */
+#ulmsgs {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#ulmsgs li {
+    background-color: #222;
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Headings */
+.heading {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffeb3b;
+}

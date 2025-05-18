@@ -1,0 +1,16 @@
+npm init
+npm i express socket.io
+
+****
+step1-> client clicks button msg_sent and send  socket.emit
+step2->server listens io.on msg_sent and send through io.emit
+step3> client listens theought socket.on msg_rcvd and displays msg 
+
+Note->
+io.emit() is done in server.js because then server sends to all sockets.
+if we do socket.emit() in server then it will send in only that particular socket
+socket.broadcast.emit send to all except that
+
+Rooms->
+for chat apps instead of broadcast we can make rooms and message will be sent to everyone in rooms
+we make each socket as a room and room is named on name of person.so we can send io.to(reciver)
