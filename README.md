@@ -7,6 +7,16 @@
 
 <hr>
 
+<h2>📸 Demo Screenshots</h2>
+
+<h3>🔵 Home Page</h3>
+<img src="https://github.com/Himanshijain-2005/WhisperWave/blob/main/Wisper%20Wave%202%20screeshot.png" alt="Home Page" width="600"/>
+
+<h3>🟢 Chat Interface</h3>
+<img src="https://github.com/Himanshijain-2005/WhisperWave/blob/main/WisperWave%20screeshot.png" alt="Chat Interface" width="600"/>
+
+<hr>
+
 <h2>🚀 Features</h2>
 
 <ul>
