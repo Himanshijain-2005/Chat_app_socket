@@ -1,4 +1,15 @@
 <h1 align="center">💬 Real-Time Chat App with Socket.IO & Express</h1>
+<h1>
+  <a href="https://github.com/Himanshijain-2005/WhisperWave" rel="noopener noreferrer">
+    🔗 For Code (GitHub Repo)
+  </a>
+</h1>
+
+<h1>
+  <a href="https://drive.google.com/file/d/12t6lobd-vlbNyvSck8wG66L7adiWMVol/view?usp=sharing" rel="noopener noreferrer">
+    🔗 Flow Chart of Whisper Wave (GitHub Repo)
+  </a>
+</h1>
 
 <p align="center">
   A real-time chat application using <strong>Node.js</strong>, <strong>Express</strong>, and <strong>Socket.IO</strong> to send and receive messages instantly.
