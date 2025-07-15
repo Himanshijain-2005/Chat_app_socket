@@ -10,6 +10,11 @@
     🔗 Flow Chart of Whisper Wave (GitHub Repo)
   </a>
 </h1>
+<h1>
+  <a href="https://whisperwave-1.onrender.com" rel="noopener noreferrer">
+    🔗 App is live 
+  </a>
+</h1>
 
 <p align="center">
   A real-time chat application using <strong>Node.js</strong>, <strong>Express</strong>, and <strong>Socket.IO</strong> to send and receive messages instantly.
